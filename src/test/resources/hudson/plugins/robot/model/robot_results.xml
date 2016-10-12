@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="robot@1.6.4">
+  <logFile>suite1_log.html</logFile>
+  <reportFile>suite1_report.html</reportFile>
+  <timeStamp>20160823 09:23:22.286</timeStamp>
+  <suites>
+    <entry>
+      <string>Acceptance</string>
+      <suite>
+        <duplicateSafeName>Acceptance</duplicateSafeName>
+        <logFile>suite1_log.html</logFile>
+        <reportFile>suite1_report.html</reportFile>
+        <id>s1</id>
+        <children>
+          <entry>
+            <string>Tests</string>
+            <suite>
+              <duplicateSafeName>Tests</duplicateSafeName>
+              <logFile>suite1_log.html</logFile>
+              <reportFile>suite1_report.html</reportFile>
+              <id>s1-s1</id>
+              <children>
+                <entry>
+                  <string>EPG</string>
+                  <suite>
+                    <duplicateSafeName>EPG</duplicateSafeName>
+                    <logFile>suite1_log.html</logFile>
+                    <reportFile>suite1_report.html</reportFile>
+                    <id>s1-s1-s1</id>
+                    <children>
+                      <entry>
+                        <string>ANV</string>
+                        <suite>
+                          <duplicateSafeName>ANV</duplicateSafeName>
+                          <logFile>suite1_log.html</logFile>
+                          <reportFile>suite1_report.html</reportFile>
+                          <id>s1-s1-s1-s1</id>
+                          <children>
+                            <entry>
+                              <string>ANV EndToEnd</string>
+                              <suite>
+                                <duplicateSafeName>ANV EndToEnd</duplicateSafeName>
+                                <logFile>suite1_log.html</logFile>
+                                <reportFile>suite1_report.html</reportFile>
+                                <id>s1-s1-s1-s1-s1</id>
+                                <children>
+                                  <entry>
+                                    <string>NBI-Callhome</string>
+                                    <suite>
+                                      <duplicateSafeName>NBI-Callhome</duplicateSafeName>
+                                      <logFile>suite1_log.html</logFile>
+                                      <reportFile>suite1_report.html</reportFile>
+                                      <id>s1-s1-s1-s1-s1-s1</id>
+                                      <children/>
+                                      <parent class="suite" reference="../../../.."/>
+                                      <name>NBI-Callhome</name>
+                                      <caseResults>
+                                        <entry>
+                                          <string>ANV-NBI-1002: Verify raising and clearing of configuration error alarm in PMA by creating subsequent edit-config request (E2E_Scenario_2)</string>
+                                          <case>
+                                            <logFile>suite1_log.html</logFile>
+                                            <id>s1-s1-s1-s1-s1-s1-t2</id>
+                                            <passed>false</passed>
+                                            <critical>true</critical>
+                                            <errorMsg>Parent suite setup failed:
+Timeout 4 minutes exceeded. The last error was: Netconf Response does not exist any nodes with xpath: /rpc-reply/data/device-manager/device-holder[name=&apos;TestANV&apos;]/device[device-id=&apos;R1.S1.LT1.PON1.ONT1&apos;]/device-state[aligned=&apos;true&apos; and reachable=&apos;true&apos;]</errorMsg>
+                                            <name>ANV-NBI-1002: Verify raising and clearing of configuration error alarm in PMA by creating subsequent edit-config request (E2E_Scenario_2)</name>
+                                            <starttime>20160823 09:27:31.563</starttime>
+                                            <endtime>20160823 09:27:31.569</endtime>
+                                            <tags>
+                                              <string>1002</string>
+                                            </tags>
+                                            <parent reference="../../../.."/>
+                                            <failedSince>0</failedSince>
+                                          </case>
+                                        </entry>
+                                        <entry>
+                                          <string>Demo:Verify call home DPU creation in PMA and Pushing a downstream data rate profile</string>
+                                          <case>
+                                            <logFile>suite1_log.html</logFile>
+                                            <id>s1-s1-s1-s1-s1-s1-t1</id>
+                                            <passed>false</passed>
+                                            <critical>true</critical>
+                                            <errorMsg>Parent suite setup failed:
+Timeout 4 minutes exceeded. The last error was: Netconf Response does not exist any nodes with xpath: /rpc-reply/data/device-manager/device-holder[name=&apos;TestANV&apos;]/device[device-id=&apos;R1.S1.LT1.PON1.ONT1&apos;]/device-state[aligned=&apos;true&apos; and reachable=&apos;true&apos;]</errorMsg>
+                                            <name>Demo:Verify call home DPU creation in PMA and Pushing a downstream data rate profile</name>
+                                            <starttime>20160823 09:27:31.555</starttime>
+                                            <endtime>20160823 09:27:31.560</endtime>
+                                            <tags>
+                                              <string>smoke-test</string>
+                                            </tags>
+                                            <parent reference="../../../.."/>
+                                            <failedSince>0</failedSince>
+                                          </case>
+                                        </entry>
+                                        <entry>
+                                          <string>ANV-NBI-1003: Verify raising and clearing of device unreachability alarm in PMA (E2E_Scenario_3)</string>
+                                          <case>
+                                            <logFile>suite1_log.html</logFile>
+                                            <id>s1-s1-s1-s1-s1-s1-t3</id>
+                                            <passed>false</passed>
+                                            <critical>true</critical>
+                                            <errorMsg>Parent suite setup failed:
+Timeout 4 minutes exceeded. The last error was: Netconf Response does not exist any nodes with xpath: /rpc-reply/data/device-manager/device-holder[name=&apos;TestANV&apos;]/device[device-id=&apos;R1.S1.LT1.PON1.ONT1&apos;]/device-state[aligned=&apos;true&apos; and reachable=&apos;true&apos;]</errorMsg>
+                                            <name>ANV-NBI-1003: Verify raising and clearing of device unreachability alarm in PMA (E2E_Scenario_3)</name>
+                                            <starttime>20160823 09:27:31.571</starttime>
+                                            <endtime>20160823 09:27:31.575</endtime>
+                                            <tags/>
+                                            <parent reference="../../../.."/>
+                                            <failedSince>0</failedSince>
+                                          </case>
+                                        </entry>
+                                        <entry>
+                                          <string>ANV-NBI-1004: Verify raising and clearing of configuration error alarm in PMA by creating subsequentupload device configuration PMA (E2E_Scenario_4)</string>
+                                          <case>
+                                            <logFile>suite1_log.html</logFile>
+                                            <id>s1-s1-s1-s1-s1-s1-t4</id>
+                                            <passed>false</passed>
+                                            <critical>true</critical>
+                                            <errorMsg>Parent suite setup failed:
+Timeout 4 minutes exceeded. The last error was: Netconf Response does not exist any nodes with xpath: /rpc-reply/data/device-manager/device-holder[name=&apos;TestANV&apos;]/device[device-id=&apos;R1.S1.LT1.PON1.ONT1&apos;]/device-state[aligned=&apos;true&apos; and reachable=&apos;true&apos;]</errorMsg>
+                                            <name>ANV-NBI-1004: Verify raising and clearing of configuration error alarm in PMA by creating subsequentupload device configuration PMA (E2E_Scenario_4)</name>
+                                            <starttime>20160823 09:27:31.577</starttime>
+                                            <endtime>20160823 09:27:31.580</endtime>
+                                            <tags>
+                                              <string>1004</string>
+                                            </tags>
+                                            <parent reference="../../../.."/>
+                                            <failedSince>0</failedSince>
+                                          </case>
+                                        </entry>
+                                      </caseResults>
+                                      <startTime>20160823 09:23:23.415</startTime>
+                                      <endTime>20160823 09:27:32.995</endTime>
+                                    </suite>
+                                  </entry>
+                                </children>
+                                <parent class="suite" reference="../../../.."/>
+                                <name>ANV EndToEnd</name>
+                                <caseResults/>
+                                <startTime>20160823 09:23:23.029</startTime>
+                                <endTime>20160823 09:27:33.001</endTime>
+                              </suite>
+                            </entry>
+                          </children>
+                          <parent class="suite" reference="../../../.."/>
+                          <name>ANV</name>
+                          <caseResults/>
+                          <startTime>20160823 09:23:22.993</startTime>
+                          <endTime>20160823 09:27:33.007</endTime>
+                        </suite>
+                      </entry>
+                    </children>
+                    <parent class="suite" reference="../../../.."/>
+                    <name>EPG</name>
+                    <caseResults/>
+                    <startTime>20160823 09:23:22.965</startTime>
+                    <endTime>20160823 09:27:33.013</endTime>
+                  </suite>
+                </entry>
+              </children>
+              <parent class="suite" reference="../../../.."/>
+              <name>Tests</name>
+              <caseResults/>
+              <startTime>20160823 09:23:22.931</startTime>
+              <endTime>20160823 09:27:33.019</endTime>
+            </suite>
+          </entry>
+        </children>
+        <parent class="result" reference="../../../.."/>
+        <name>Acceptance</name>
+        <caseResults/>
+        <startTime>20160823 09:23:22.624</startTime>
+        <endTime>20160823 09:27:33.024</endTime>
+      </suite>
+    </entry>
+  </suites>
+</result>

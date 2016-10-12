@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot>
+<suite source="/home/jpiironen/robot.workspace/nestedSuites/subSuite" name="subSuite">
+<doc></doc>
+<metadata>
+</metadata>
+<suite source="/home/jpiironen/robot.workspace/nestedSuites/subSuite/testcases.html" name="Testcases">
+<doc></doc>
+<metadata>
+</metadata>
+<test critical="yes" name="SubFailer" timeout="">
+<doc>Author : Sridhara Moorthy  N S
+
+YangCompliance: ListWithContainer
+
+TEST ID: FNMS-1074,FNMS-1068, FNMS-1075, FNMS-1070, FNMS-1073, FNMS-1072, FNMS-1071, FNMS-1069
+
+ListWithContainer_REQ1
+
+Test scenario:
+(Operation = Create ; Leaf = name) Add a list element and it should create container by default
+
+Expected result:
+Creation should be successful with container in place
+
+ListWithContainer_REQ2</doc>
+<kw type="kw" name="BuiltIn.Fail" timeout="">
+<doc></doc>
+<arguments>
+<arg>I am fail!</arg>
+</arguments>
+<msg timestamp="20110406 14:04:50.623" level="FAIL">I am fail!</msg>
+<status status="FAIL" endtime="20110406 14:04:50.624" starttime="20110406 14:04:50.622"></status>
+</kw>
+<tags>
+</tags>
+<status status="FAIL" endtime="20110406 14:04:50.624" starttime="20110406 14:04:50.622">I am fail!</status>
+</test>
+<status status="FAIL" endtime="20110406 14:04:50.624" starttime="20110406 14:04:50.620"></status>
+</suite>
+<status status="FAIL" endtime="20110406 14:04:50.625" starttime="20110406 14:04:50.619"></status>
+</suite>
+</robot>

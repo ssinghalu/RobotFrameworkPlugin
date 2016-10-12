@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20160901 14:25:30.426" generator="Robot 2.8.1 (Python 2.7.2 on win32)">
+<suite source="C:\TestAuto" id="s1" name="TestAuto">
+<suite source="C:\TestAuto\src" id="s1-s1" name="Src">
+<suite source="C:\TestAuto\src\test" id="s1-s1-s1" name="Test">
+<suite source="C:\TestAuto\src\test\robotframework" id="s1-s1-s1-s1" name="Robotframework">
+<suite source="C:\TestAuto\src\test\robotframework\acceptance" id="s1-s1-s1-s1-s1" name="Acceptance">
+<suite source="C:\TestAuto\src\test\robotframework\acceptance\Tests" id="s1-s1-s1-s1-s1-s1" name="Tests">
+<suite source="C:\TestAuto\src\test\robotframework\acceptance\Tests\EPG" id="s1-s1-s1-s1-s1-s1-s1" name="EPG">
+<suite source="C:\TestAuto\src\test\robotframework\acceptance\Tests\EPG\ANV" id="s1-s1-s1-s1-s1-s1-s1-s1" name="ANV">
+<suite source="C:\TestAuto\src\test\robotframework\acceptance\Tests\EPG\ANV\ANV_EndToEnd" id="s1-s1-s1-s1-s1-s1-s1-s1-s1" name="ANV EndToEnd">
+<suite source="C:\TestAuto\src\test\robotframework\acceptance\Tests\EPG\ANV\ANV_EndToEnd\Test.txt" id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1" name="Test">
+<test id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1-t1" name="Print Name">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+</arguments>
+<msg timestamp="20160901 14:25:30.489" level="FAIL">Keyword 'BuiltIn.Log' expected 1 to 2 arguments, got 0.</msg>
+<status status="FAIL" endtime="20160901 14:25:30.489" starttime="20160901 14:25:30.489"></status>
+</kw>
+<doc>TEST ID: FNMS-1074,FNMS-1068, FNMS-1075, FNMS-1070, FNMS-1073, FNMS-1072, FNMS-1071, FNMS-1069</doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20160901 14:25:30.489" critical="yes" starttime="20160901 14:25:30.489">Keyword 'BuiltIn.Log' expected 1 to 2 arguments, got 0.</status>
+</test>
+<test id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1-t2" name="Print Surname">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+</arguments>
+<msg timestamp="20160901 14:25:30.489" level="FAIL">Keyword 'BuiltIn.Log' expected 1 to 2 arguments, got 0.</msg>
+<status status="FAIL" endtime="20160901 14:25:30.489" starttime="20160901 14:25:30.489"></status>
+</kw>
+<doc>TEST ID: FNMS-1239, FNMS-1240</doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20160901 14:25:30.489" critical="yes" starttime="20160901 14:25:30.489">Keyword 'BuiltIn.Log' expected 1 to 2 arguments, got 0.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20160901 14:25:30.489" starttime="20160901 14:25:30.489"></status>
+</suite>
+<suite source="C:\TestAuto\src\test\robotframework\acceptance\Tests\EPG\ANV\ANV_EndToEnd\Test1.txt" id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s2" name="Test1">
+<test id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s2-t1" name="Print Name">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+</arguments>
+<msg timestamp="20160901 14:25:30.504" level="FAIL">Keyword 'BuiltIn.Log' expected 1 to 2 arguments, got 0.</msg>
+<status status="FAIL" endtime="20160901 14:25:30.504" starttime="20160901 14:25:30.504"></status>
+</kw>
+<doc>TEST ID: FNMS-1123, FNMS-1124</doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20160901 14:25:30.504" critical="yes" starttime="20160901 14:25:30.489">Keyword 'BuiltIn.Log' expected 1 to 2 arguments, got 0.</status>
+</test>
+<test id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s2-t2" name="Print Surname">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>"singh"</arg>
+</arguments>
+<msg timestamp="20160901 14:25:30.504" level="INFO">"singh"</msg>
+<status status="PASS" endtime="20160901 14:25:30.504" starttime="20160901 14:25:30.504"></status>
+</kw>
+<doc>TEST ID: FNMS-1272, FNMS-1273, FNMS-1274, FNMS-1275, FNMS-1276</doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20160901 14:25:30.504" critical="yes" starttime="20160901 14:25:30.504"></status>
+</test>
+<test id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s2-t3" name="Print Last Name">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>"panwar"</arg>
+</arguments>
+<msg timestamp="20160901 14:25:30.504" level="INFO">"panwar"</msg>
+<status status="PASS" endtime="20160901 14:25:30.504" starttime="20160901 14:25:30.504"></status>
+</kw>
+<doc>TEST ID: FNMS-1144, FNMS-1145, FNMS-1146, FNMS-1147, FNMS-1143, FNMS-1148, FNMS-1149, FNMS-1150, FNMS-1151, FNMS-1277, FNMS-1278, FNMS-1279, FNMS-1280, FNMS-1281, FNMS-1282</doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20160901 14:25:30.504" critical="yes" starttime="20160901 14:25:30.504"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20160901 14:25:30.504" starttime="20160901 14:25:30.489"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20160901 14:25:30.504" starttime="20160901 14:25:30.489"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20160901 14:25:30.504" starttime="20160901 14:25:30.489"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20160901 14:25:30.504" starttime="20160901 14:25:30.489"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20160901 14:25:30.504" starttime="20160901 14:25:30.473"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20160901 14:25:30.504" starttime="20160901 14:25:30.473"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20160901 14:25:30.504" starttime="20160901 14:25:30.473"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20160901 14:25:30.504" starttime="20160901 14:25:30.473"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20160901 14:25:30.504" starttime="20160901 14:25:30.473"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20160901 14:25:30.520" starttime="20160901 14:25:30.442"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="3" pass="2">Critical Tests</stat>
+<stat fail="3" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="3" pass="2" id="s1" name="TestAuto">TestAuto</stat>
+<stat fail="3" pass="2" id="s1-s1" name="Src">TestAuto.Src</stat>
+<stat fail="3" pass="2" id="s1-s1-s1" name="Test">TestAuto.Src.Test</stat>
+<stat fail="3" pass="2" id="s1-s1-s1-s1" name="Robotframework">TestAuto.Src.Test.Robotframework</stat>
+<stat fail="3" pass="2" id="s1-s1-s1-s1-s1" name="Acceptance">TestAuto.Src.Test.Robotframework.Acceptance</stat>
+<stat fail="3" pass="2" id="s1-s1-s1-s1-s1-s1" name="Tests">TestAuto.Src.Test.Robotframework.Acceptance.Tests</stat>
+<stat fail="3" pass="2" id="s1-s1-s1-s1-s1-s1-s1" name="EPG">TestAuto.Src.Test.Robotframework.Acceptance.Tests.EPG</stat>
+<stat fail="3" pass="2" id="s1-s1-s1-s1-s1-s1-s1-s1" name="ANV">TestAuto.Src.Test.Robotframework.Acceptance.Tests.EPG.ANV</stat>
+<stat fail="3" pass="2" id="s1-s1-s1-s1-s1-s1-s1-s1-s1" name="ANV EndToEnd">TestAuto.Src.Test.Robotframework.Acceptance.Tests.EPG.ANV.ANV EndToEnd</stat>
+<stat fail="2" pass="0" id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s1" name="Test">TestAuto.Src.Test.Robotframework.Acceptance.Tests.EPG.ANV.ANV EndToEnd.Test</stat>
+<stat fail="1" pass="2" id="s1-s1-s1-s1-s1-s1-s1-s1-s1-s2" name="Test1">TestAuto.Src.Test.Robotframework.Acceptance.Tests.EPG.ANV.ANV EndToEnd.Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
