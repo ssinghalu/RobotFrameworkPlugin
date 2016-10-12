@@ -15,7 +15,7 @@ limitations under the License.
 ==================
 
 This plugin publishes Robot Framework (http://code.google.com/p/robotframework/)
-test reports for Hudson.
+test reports for Hudson. It's code base taken from https://github.com/jenkinsci/robot-plugin
+A small modification done for personal use to count test case based on Jira ticket mention
+in documentation section of robotframework test cases instead of robotframwork test case.
 
-See http://wiki.jenkins-ci.org/display/JENKINS/Robot+Framework+Plugin
-for more information.
