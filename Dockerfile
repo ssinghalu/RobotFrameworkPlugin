@@ -1,7 +1,5 @@
-#This is a sample Image 
-FROM ubuntu 
-MAINTAINER dummy@gmail.com 
+#This is a sample Image
+FROM hello-world
+MAINTAINER dummy@gmail.com
 
-RUN apt-get update 
-RUN apt-get install –y nginx 
-CMD [“echo”,”Image created”] 
+RUN echo hello
